@@ -1,5 +1,5 @@
 import express from "express";
-import userModel from "../models/user.model.js";
+import {userModel} from "../models/user.model.js";
 import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
 import makeTokenNSendCookie from "../utils/createJWT.js";
